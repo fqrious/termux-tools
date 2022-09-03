@@ -262,4 +262,4 @@ if [ ! -z $sublang ]; then
 	fi
 fi
 
-
+termux-media-scan -r "$(dirname $out)"
